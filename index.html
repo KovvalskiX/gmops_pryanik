@@ -14,9 +14,11 @@
   		}
   		#mops {
   			max-width: 100%;
+			border: 2px solid lime;
+			border-radius: 10px;
   			position: center;
-  			width: 300px;
-  			height: 300px;
+  			width: 400px;
+  			height: 150px;
   			size: 100%;
   		}
   		#press{
@@ -25,6 +27,12 @@
   			font-size: 30px;
   			display: default;
   		}
+		#edition{
+			color: cyan;
+			font-family: impact;
+			font-size: 40px;
+			margin-top: auto;
+		}
   		@media (orientation: portrait) {
   			html {
   				background-size: 100% 500%;
@@ -40,7 +48,8 @@
   <body>
   	<center>
   		<img src="src/logo.png" id="logo"/>
-		<p id="press">Жми на мопса</p>
+		<p id="edition">PRYANIK EDITION</p>
+		<p id="press">Жми на Пряника</p>
 		<img id="mops" src="src/mops.png"/>
 	</center>
 	<audio id="mopsSnd">
